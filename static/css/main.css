@@ -1,0 +1,194 @@
+html, body{ height: 100%; } 
+#wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -30px;} 
+#push, footer {height: 30px;}
+.title-main {font-size: 22px;}
+#header-panel {height: auto;}
+#header-panel .navbar.primary-menu > .navbar-inner {float:none;}
+#header-panel .primary-menu.navbar .nav > li a {margin: 5px 0;}
+#header-panel .primary-menu.navbar .nav > li > .dropdown-menu:before {border-bottom: 4px solid #CCCCCC;border-left: 5px solid transparent;border-right: 5px solid transparent;content: "";height: 0;margin: 2px 0 0 5px;width: 0;}
+#header-panel .primary-menu.navbar .nav > li > .dropdown-menu {margin-top: 1px;}
+#header-panel .secondary-menu .nav li a.btn {cursor: pointer; line-height: 28px; width: 30px;}
+#header-panel a.btn .caret {margin: 12px -10px 0 5px;}
+#header-panel .dropdown-menu.menu-profile {margin-top: 5px; padding: 10px 0;}
+.secondary-menu,
+.navbar.secondary-menu > .container-fluid > .navbar-inner > .nav-collapse.collapse > .nav > .dropdown > .dropdown-menu > li > a:hover,
+.navbar.secondary-menu > .container-fluid > .navbar-inner > .nav-collapse.collapse > .nav > .dropdown > .dropdown-menu > li > a:focus{background-color: #5676a5;color:#fff;}
+.pagination { margin: 20px 0;}
+
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pagination ul > li {
+  display: inline;
+}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+}
+
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+}
+
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover,
+.pagination ul > .disabled > a:focus {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+.buttons {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 19px;
+}
+.main-breadcrumb {margin: 0; padding: 80px 20px 0;;}
+.main-breadcrumb .breadcrumb {margin: 0;}
+footer {color: #ffffff; font-size: .8em; line-height: 30px;background-color: #5676A5; box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.05) inset;}
+.container .row > form {
+    margin: auto;
+    width: 400px;
+}
+.table-container {
+	margin-left: 10px;
+}
+.relative {position: relative; padding: 0;}
+
+.form-add {}
+.form-add .control-group{display: inline-block; vertical-align: top; min-width: 40%;}
+
+.required {
+  color: #B94A48;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.inline_validation_message {
+  color: #B94A48;
+  font-size: 0.9em;
+}
+hr.dottedhr {
+  margin: 0 0 10px;
+}
+.form-login {
+  margin: 100px auto 0;
+  max-width: 400px;
+}
+.form-login .form-actions {
+  margin-top:0px;
+  padding:0px;
+}
+.form-login >form >p { margin-bottom:5px}
+
+.form-login label { font-weight:bold}
+.secondary-menu.navbar .current-user img {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 40px;
+    margin: 0 0 0 -10px;
+    padding: 3px;
+    width: 40px;
+}
+.secondary-menu .nav > li > .dropdown-menu .current-user .name a {
+    display: block;
+    padding: 0;
+}
+.secondary-menu .current-user .name {
+    margin-top: -40px;
+}
+.line-form {margin: 30px 0 10px 0;}
+/*.line-form + .pull-right {margin-right: 50px;}*/
+
+/* Photo user */
+.photo-user {
+  padding: 30px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.photo-user:hover figcaption {opacity: 1;}
+.photo-user img, #loading-img { 
+  box-shadow: 2px 2px 4px 0 rgba(100, 100, 100, 0.5);
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+.photo-user figcaption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    font-style: normal;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+       -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
+}
+.photo-user figcaption .btn {
+    display: inline-block;
+    float: none;
+    margin: 10px 0;
+    padding: 8px 0;
+    width: 180px;
+}
+.photo-user figcaption .btn:first-child {
+  margin-top: 80px;
+}
+.modal-backdrop {z-index:0;}
+#loading-img {
+  background: url("../img/loading.png") no-repeat scroll center center transparent;
+}
